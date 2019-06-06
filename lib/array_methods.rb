@@ -13,7 +13,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  min
+  min = array[0]
   array.length.times { |index|
     min = array[index] if array[index] < min
   }
